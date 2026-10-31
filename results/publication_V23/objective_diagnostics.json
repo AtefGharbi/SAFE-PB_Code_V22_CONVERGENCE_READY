@@ -1,0 +1,10 @@
+{
+  "beta_r": 0.2,
+  "beta_f": 2000.0,
+  "risk_positive_episode_rate": 0.24472222222222223,
+  "mean_risk_component_fraction": 0.16631181515965024,
+  "median_fairness_component_fraction": 0.039098157603137396,
+  "minimum_required_fraction": 0.005,
+  "risk_signal_verified": true,
+  "fairness_signal_verified": true
+}
