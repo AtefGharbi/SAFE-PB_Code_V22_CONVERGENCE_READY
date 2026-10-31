@@ -1,0 +1,38 @@
+{
+  "n_cases": 168,
+  "n_authority_feasible": 160,
+  "n_authority_infeasible": 8,
+  "methods": {
+    "soft": {
+      "ac_feasible_all": 2,
+      "ac_feasible_among_authority_feasible": 2,
+      "restoration_rate_authority_feasible": 0.0125,
+      "median_distance_kw": 0.05745350662236072,
+      "median_min_v_ac": 0.9475940558763245
+    },
+    "lexicographic": {
+      "ac_feasible_all": 0,
+      "ac_feasible_among_authority_feasible": 0,
+      "restoration_rate_authority_feasible": 0.0,
+      "median_distance_kw": 0.6270558530832813,
+      "median_min_v_ac": 0.9477764084530826
+    },
+    "ac_corrected": {
+      "ac_feasible_all": 160,
+      "ac_feasible_among_authority_feasible": 160,
+      "restoration_rate_authority_feasible": 1.0,
+      "median_distance_kw": 7.790258519688647,
+      "median_min_v_ac": 0.9501884695271832
+    }
+  },
+  "soft_cases_using_slack": 147,
+  "soft_cases_using_slack_while_linear_slack_free": 147,
+  "ac_corrections_distribution": {
+    "1": 160,
+    "4": 8
+  },
+  "mean_time_s": {
+    "soft": 0.015159601130952589,
+    "ac_corrected": 0.031242821744044812
+  }
+}

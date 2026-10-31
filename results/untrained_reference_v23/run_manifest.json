@@ -1,0 +1,234 @@
+{
+  "status": "failed",
+  "publication_eligible": false,
+  "started_utc": "2026-10-18T06:58:06Z",
+  "args": {
+    "seeds": "0:10",
+    "min_publication_seeds": 20,
+    "allow_fewer_seeds": true,
+    "train_episodes": 0,
+    "updates_per_episode": 8,
+    "eval_days": 10,
+    "eval_seed_base": 9000000,
+    "stress_calibration_seed": 8000000,
+    "batch_size": 64,
+    "replay_capacity": 100000,
+    "beta_r": 0.2,
+    "beta_f": 2000.0,
+    "cvar_alpha": 0.9,
+    "risk_warmup": 40,
+    "objective_min_fraction": 0.005,
+    "scenario_profiles": "nominal,binding_voltage",
+    "v_min": 0.95,
+    "stress_v_min": 0.95,
+    "stress_base_scale": 0.25,
+    "stress_homes_candidates": "4",
+    "methods": "SAFE-PB,No-DR",
+    "q_train_episodes": 4000,
+    "q_grid_points": 7,
+    "mpc_horizon": 3,
+    "mpc_grid_points": 3,
+    "mpc_beam_width": 8,
+    "save_checkpoints": false,
+    "workers": 2,
+    "torch_threads": 1,
+    "resume": true,
+    "output_dir": "/tmp/claude-0/-home-claude/0eee9cb9-ffcf-5afc-b7f7-97598ad054ff/scratchpad/untrained10"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "methods": [
+    "SAFE-PB",
+    "No-DR"
+  ],
+  "scenario_profiles": [
+    "nominal",
+    "binding_voltage"
+  ],
+  "inferential_unit": "training_seed",
+  "config_sha256": "bfaf075f49757e45eea8c50e082c8eda0f51a38c91b4d793d54cb0732cd81753",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "torch": "2.14.1+cu130",
+  "numpy": "2.4.6",
+  "runs": [
+    {
+      "method": "SAFE-PB",
+      "seed": 0,
+      "seconds": 49.41362023353577,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 1,
+      "seconds": 49.52887988090515,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 2,
+      "seconds": 48.43918538093567,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 3,
+      "seconds": 46.56878972053528,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 4,
+      "seconds": 44.06991147994995,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 5,
+      "seconds": 44.100895404815674,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 6,
+      "seconds": 46.30266046524048,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 7,
+      "seconds": 46.79360270500183,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 8,
+      "seconds": 43.98537063598633,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "SAFE-PB",
+      "seed": 9,
+      "seconds": 45.33095860481262,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 0,
+      "seconds": 20.33079218864441,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 1,
+      "seconds": 21.14228868484497,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 2,
+      "seconds": 21.453866243362427,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 3,
+      "seconds": 21.009624004364014,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 4,
+      "seconds": 20.268447399139404,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 5,
+      "seconds": 20.686198234558105,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 6,
+      "seconds": 20.61480450630188,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 7,
+      "seconds": 20.00240707397461,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 8,
+      "seconds": 19.628378868103027,
+      "status": "passed",
+      "resumed": false
+    },
+    {
+      "method": "No-DR",
+      "seed": 9,
+      "seconds": 19.866949796676636,
+      "status": "passed",
+      "resumed": false
+    }
+  ],
+  "stress_profile": {
+    "nominal_base_scale": 0.35,
+    "nominal_homes_per_bus": 1.0,
+    "nominal_v_min": 0.95,
+    "base_scale": 0.25,
+    "homes_per_bus": 4.0,
+    "v_min": 0.95
+  },
+  "stress_calibration_audit": [
+    {
+      "homes_per_bus": 4.0,
+      "active_steps": 6,
+      "candidate_violation_steps": 6,
+      "min_candidate_voltage_ac": 0.9348269531672803
+    }
+  ],
+  "protocol_fingerprint": "f65c1c70163d2af5f8774130b8d0ea3182b76e8a876c22e7c189a5f4f9a7b03e",
+  "workers": 2,
+  "torch_threads_per_worker": 1,
+  "design_validation": {
+    "expected_rows": 400,
+    "actual_rows": 400,
+    "duplicate_key_rows": 0,
+    "matched_scenarios": true,
+    "finite_required_metrics": true
+  },
+  "error": "AttributeError(\"'DataFrame' object has no attribute 'episode'\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/claude/work/safe_pb_v23/scripts/run_v17_experiments.py\", line 699, in main\n    objective = objective_diagnostics(train_logs, args)\n  File \"/home/claude/work/safe_pb_v23/scripts/run_v17_experiments.py\", line 409, in objective_diagnostics\n    after_warmup = logs[logs.episode >= args.risk_warmup]\n                        ^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/generic.py\", line 6321, in __getattr__\n    return object.__getattribute__(self, name)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nAttributeError: 'DataFrame' object has no attribute 'episode'\n"
+}
