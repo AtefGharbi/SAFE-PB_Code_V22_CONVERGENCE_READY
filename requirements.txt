@@ -1,0 +1,11 @@
+# Pinned to the exact versions this codebase was developed and tested
+# against in this session (Python 3.12). Looser bounds are given as a
+# fallback comment in case the exact pin is unavailable on your platform.
+numpy==2.4.4
+scipy==1.18.1
+pandas==2.3.3
+matplotlib==3.10.8
+pandapower==3.5.4
+PyYAML==6.0.3
+pytest==9.1.1
+torch==2.14.0
